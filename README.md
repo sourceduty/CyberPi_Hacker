@@ -18,6 +18,8 @@ Hacking the CyberPi without mLink involves leveraging its MicroPython base for d
 
 To upload scripts, save your Python code as main.py and use tools like ampy to transfer it to the CyberPi. For instance, the command ampy --port /dev/ttyUSB0 put main.py uploads your script, which will run automatically after the CyberPi reboots. You can also automate commands using Python libraries like pyserial for real-time control, enabling advanced scripting and interaction. This approach gives you flexibility and deeper control over the CyberPi while avoiding reliance on proprietary tools. However, ensure you back up existing scripts and avoid overwriting critical system files to prevent unintended issues. If needed, you can restore default settings via hardware reset or mBlock.
 
+![display methods](https://github.com/user-attachments/assets/ebb39fa5-c7c2-4c25-854d-b64c3a21d091)
+
 #
 ### Related Links
 
