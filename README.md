@@ -24,6 +24,8 @@ To upload scripts, save your Python code as main.py and use tools like ampy to t
 [Raspberry Pi](https://github.com/sourceduty/Raspberry_Pi)
 <br>
 [Flipper Zero Simulator](https://github.com/sourceduty/Flipper_Zero_Simulator)
+<br>
+[IoT Hacker](https://github.com/sourceduty/IoT_Hacker)
 
 ***
 Copyright (C) 2024, Sourceduty - All Rights Reserved.
