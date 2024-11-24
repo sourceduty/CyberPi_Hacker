@@ -1,0 +1,23 @@
+import cyberpi
+
+# Inspect the high-level attributes of the cyberpi library
+print("High-level members in the cyberpi library:")
+print(dir(cyberpi))
+
+print("\nDetailed inspection of each member:")
+for member_name in dir(cyberpi):
+    print(f"\n--- Inspecting {member_name} ---")
+    try:
+        member = getattr(cyberpi, member_name)
+        print(f"Type: {type(member)}")
+        if callable(member):
+            print("It is callable (function or method).")
+        else:
+            print("It is not callable.")
+        
+        # If it's a class or module, print its contents
+        if isinstance(member, type) or isinstance(member, object):
+            print("Attributes/Methods:")
+            print(dir(member))
+    except Exception as e:
+        print(f"Could not inspect {member_name}: {e}")
