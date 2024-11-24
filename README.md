@@ -34,6 +34,24 @@ To upload scripts, save your Python code as main.py and use tools like ampy to t
 [ ] Develop something new for CyberyPi
 
 #
+### Classes
+
+You can list all classes in the cyberpi library by using Python's inspect module. The inspect.getmembers() function can extract classes, functions, and other objects from a module.
+
+```
+import cyberpi
+import inspect
+
+# Get all classes in the cyberpi module
+classes = inspect.getmembers(cyberpi, inspect.isclass)
+
+# Print all classes
+print("Classes in the cyberpi library:")
+for cls_name, cls in classes:
+    print(cls_name)
+```
+
+#
 ### Related Links
 
 [ChatGPT](https://github.com/sourceduty/ChatGPT)
