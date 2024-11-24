@@ -116,6 +116,13 @@ The table above provides a clear overview of the pin configuration for a CyberPi
 MicroPython on the ESP32 is a powerful tool that brings the simplicity of Python to the hardware programming world, enabling users to interact with GPIO pins, sensors, and actuators through an easy-to-learn scripting language. The ESP32, being a versatile and cost-effective microcontroller with built-in Wi-Fi and Bluetooth, is ideal for IoT projects. MicroPython's lightweight nature makes it suitable for constrained environments, and its extensive library support simplifies tasks like networking, data processing, and hardware control. Developers can easily prototype and iterate their designs, making it a popular choice for both educational purposes and professional embedded system applications. This combination of user-friendliness and capability has driven the widespread adoption of MicroPython on the ESP32 platform.
 
 #
+### Pi Zero
+
+![Pi Zero](https://github.com/user-attachments/assets/03357277-95ff-4ff4-bb6f-21c9a40094d4)
+
+CyberPi and Raspberry Pi Zero both serve as compact computing platforms, but they cater to different audiences and use cases. CyberPi, with its rich set of onboard sensors, a full-color screen, and built-in Wi-Fi and Bluetooth, is designed for educational and IoT projects, making it ideal for beginners and students exploring coding, robotics, and AI. Its integration with platforms like mBlock ensures a smoother learning curve. Raspberry Pi Zero, on the other hand, is a more versatile and powerful microcomputer capable of running a full Linux OS, suitable for advanced users in diverse fields from prototyping to media servers. While CyberPi emphasizes ease of use with built-in features and educational software, Pi Zero offers broader flexibility and power for custom projects but often requires additional peripherals to match CyberPi's all-in-one capabilities​​​.
+
+#
 
 > Alex: "*I like the CyberPi as an easy preassembled Python programming device.*"
 
