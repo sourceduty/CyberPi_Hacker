@@ -9,6 +9,13 @@ CyberPi Hacker emphasizes clarity, accessibility, and compatibility with standar
 
 This GPT also excels at personalizing its advice. Through a step-by-step approach and multiple-choice options, it guides users to pinpoint their goals and troubleshoot problems effectively. By focusing on readability and practical implementation, CyberPi Hacker empowers users to unlock CyberPi’s full potential, creating interactive, innovative projects while deepening their understanding of both programming and hardware.
 
+```
+Hack the CyberPi with Python.
+Explain how to connect CyberPi to external devices.
+I need help debugging my CyberPi Python script.
+What are some beginner projects for CyberPi in Python?
+```
+
 #
 ### Python Hacking
 
