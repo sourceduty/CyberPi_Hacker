@@ -14,6 +14,7 @@ Hack the CyberPi with Python.
 Explain how to connect CyberPi to external devices.
 Print modules and directories.
 What are some beginner projects for CyberPi in Python?
+Develop a retro cellphone menu.
 ```
 
 #
