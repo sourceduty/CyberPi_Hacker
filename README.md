@@ -95,6 +95,16 @@ The files listed, such as boot.py, mainX.py, factoryX.py, and _config.py, repres
 Before modifying any of these files, it’s crucial to create backups of the original versions to prevent losing the factory configurations or critical functionality. Customizing mainX.py files provides flexibility for different applications, such as running custom scripts for experiments or classroom demonstrations. Similarly, editing factoryX.py might involve tweaking predefined configurations or example programs that showcase specific CyberPi features. The _config.py file often houses important settings, such as hardware calibration values or software parameters. When editing these files, it's essential to follow best practices like commenting on changes, testing modifications incrementally, and ensuring compatibility with the overall system to maintain device stability.
 
 #
+### Pinout
+
+| Pin Name | GPIO Number | Mode       | Description                |
+|----------|-------------|------------|----------------------------|
+| M1       | GPIO12      | Output     | Motor control/output pin   |
+| M2       | GPIO13      | Output     | Motor control/output pin   |
+| S1       | GPIO14      | Input      | Sensor input with pull-up  |
+| S2       | GPIO15      | Input      | Sensor input with pull-up  |
+
+#
 ### MicroPython on the ESP32
 
 ![Makeblock Product](https://github.com/user-attachments/assets/a995071c-fd19-45bf-b133-03309571e808)
