@@ -28,7 +28,9 @@ To upload scripts, save your Python code as main.py and use tools like ampy to t
 ![display methods](https://github.com/user-attachments/assets/ebb39fa5-c7c2-4c25-854d-b64c3a21d091)
 
 [X] Hack the Cyberpi
+<br>
 [ ] Hack the Cyberpi OS
+<br>
 [ ] Develop something new for CyberyPi
 
 #
