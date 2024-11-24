@@ -87,7 +87,7 @@ MicroPython on the ESP32 is a powerful tool that brings the simplicity of Python
 
 #
 
-> Alex: "*I like the CyberPi as easy preassembled Python programming device.*"
+> Alex: "*I like the CyberPi as an easy preassembled Python programming device.*"
 
 #
 ### Related Links
