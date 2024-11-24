@@ -36,7 +36,7 @@ To upload scripts, save your Python code as main.py and use tools like ampy to t
 #
 ### Classes
 
-You can list all classes in the cyberpi library by using Python's inspect module. The inspect.getmembers() function can extract classes, functions, and other objects from a module.
+Here’s a reliable approach to list the available classes, methods, and attributes from the cyberpi library:
 
 ```
 import cyberpi
