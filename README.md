@@ -40,15 +40,28 @@ You can list all classes in the cyberpi library by using Python's inspect module
 
 ```
 import cyberpi
-import inspect
 
-# Get all classes in the cyberpi module
-classes = inspect.getmembers(cyberpi, inspect.isclass)
+# Inspect the high-level attributes of the cyberpi library
+print("High-level members in the cyberpi library:")
+print(dir(cyberpi))
 
-# Print all classes
-print("Classes in the cyberpi library:")
-for cls_name, cls in classes:
-    print(cls_name)
+print("\nDetailed inspection of each member:")
+for member_name in dir(cyberpi):
+    print(f"\n--- Inspecting {member_name} ---")
+    try:
+        member = getattr(cyberpi, member_name)
+        print(f"Type: {type(member)}")
+        if callable(member):
+            print("It is callable (function or method).")
+        else:
+            print("It is not callable.")
+        
+        # If it's a class or module, print its contents
+        if isinstance(member, type) or isinstance(member, object):
+            print("Attributes/Methods:")
+            print(dir(member))
+    except Exception as e:
+        print(f"Could not inspect {member_name}: {e}")
 ```
 
 #
