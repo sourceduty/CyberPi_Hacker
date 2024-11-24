@@ -12,7 +12,7 @@ This GPT also excels at personalizing its advice. Through a step-by-step approac
 ```
 Hack the CyberPi with Python.
 Explain how to connect CyberPi to external devices.
-I need help debugging my CyberPi Python script.
+Print modules and directories.
 What are some beginner projects for CyberPi in Python?
 help('modules')
 ```
