@@ -83,6 +83,8 @@ for member_name in dir(cyberpi):
 #
 ### MicroPython on the ESP32
 
+![Makeblock Product](https://github.com/user-attachments/assets/a995071c-fd19-45bf-b133-03309571e808)
+
 MicroPython on the ESP32 is a powerful tool that brings the simplicity of Python to the hardware programming world, enabling users to interact with GPIO pins, sensors, and actuators through an easy-to-learn scripting language. The ESP32, being a versatile and cost-effective microcontroller with built-in Wi-Fi and Bluetooth, is ideal for IoT projects. MicroPython's lightweight nature makes it suitable for constrained environments, and its extensive library support simplifies tasks like networking, data processing, and hardware control. Developers can easily prototype and iterate their designs, making it a popular choice for both educational purposes and professional embedded system applications. This combination of user-friendliness and capability has driven the widespread adoption of MicroPython on the ESP32 platform.
 
 #
