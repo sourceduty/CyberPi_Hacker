@@ -39,7 +39,7 @@ The connection between mlink and Makeblock is rooted in their commitment to prov
 #
 ### Python Hacking
 
-![Hacked](https://github.com/user-attachments/assets/b4033221-abf5-4cf5-8085-4ef4c5ca61e5)
+![Hacked CyberPi](https://github.com/user-attachments/assets/02830bf7-9357-4488-bcc2-e4af6bdb7c79)
 
 Hacking the CyberPi without mLink involves leveraging its MicroPython base for direct interaction and programming. The CyberPi supports serial communication, allowing you to bypass mLink using tools like terminal emulators (e.g., PuTTY or screen) and MicroPython utilities such as ampy. Start by connecting the CyberPi via USB and identifying its serial port (e.g., /dev/ttyUSB0 on Linux/macOS or COM ports on Windows). Use a terminal to access the MicroPython REPL, where you can type commands directly to control the device. For example, commands like import cyberpi and cyberpi.led.on('blue') allow you to execute actions in real time. This method provides a hands-on way to program and debug the CyberPi directly, bypassing the need for mLink's graphical interface.
 
