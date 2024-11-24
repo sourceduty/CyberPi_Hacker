@@ -81,6 +81,17 @@ for member_name in dir(cyberpi):
 ```
 
 #
+### Python Built-In
+
+The files listed, such as boot.py, mainX.py, factoryX.py, and _config.py, represent Python scripts likely used in the CyberPi's runtime environment. These can be modified to tailor the behavior of the device, add custom functionality, or optimize existing processes. To edit these files, you can use a MicroPython-compatible IDE like Thonny, or connect the CyberPi to a computer via USB and access the file system. Through such tools, you can open the files, inspect their contents, and make changes directly in Python. For instance, altering boot.py allows customization of the startup routine, such as initializing hardware components, connecting to Wi-Fi, or running a specific main program.
+
+Before modifying any of these files, it’s crucial to create backups of the original versions to prevent losing the factory configurations or critical functionality. Customizing mainX.py files provides flexibility for different applications, such as running custom scripts for experiments or classroom demonstrations. Similarly, editing factoryX.py might involve tweaking predefined configurations or example programs that showcase specific CyberPi features. The _config.py file often houses important settings, such as hardware calibration values or software parameters. When editing these files, it's essential to follow best practices like commenting on changes, testing modifications incrementally, and ensuring compatibility with the overall system to maintain device stability.
+
+The files listed, such as boot.py, mainX.py, factoryX.py, and _config.py, represent Python scripts likely used in the CyberPi's runtime environment. These can be modified to tailor the behavior of the device, add custom functionality, or optimize existing processes. To edit these files, you can use a MicroPython-compatible IDE like Thonny, or connect the CyberPi to a computer via USB and access the file system. Through such tools, you can open the files, inspect their contents, and make changes directly in Python. For instance, altering boot.py allows customization of the startup routine, such as initializing hardware components, connecting to Wi-Fi, or running a specific main program.
+
+Before modifying any of these files, it’s crucial to create backups of the original versions to prevent losing the factory configurations or critical functionality. Customizing mainX.py files provides flexibility for different applications, such as running custom scripts for experiments or classroom demonstrations. Similarly, editing factoryX.py might involve tweaking predefined configurations or example programs that showcase specific CyberPi features. The _config.py file often houses important settings, such as hardware calibration values or software parameters. When editing these files, it's essential to follow best practices like commenting on changes, testing modifications incrementally, and ensuring compatibility with the overall system to maintain device stability.
+
+#
 ### MicroPython on the ESP32
 
 ![Makeblock Product](https://github.com/user-attachments/assets/a995071c-fd19-45bf-b133-03309571e808)
