@@ -104,6 +104,8 @@ Before modifying any of these files, it’s crucial to create backups of the ori
 | S1       | GPIO14      | Input      | Sensor input with pull-up  |
 | S2       | GPIO15      | Input      | Sensor input with pull-up  |
 
+The table above provides a clear overview of the pin configuration for a CyberPi or ESP32-based setup, detailing the pin names, their respective GPIO numbers, operational modes, and primary functions. Pins M1 and M2 are configured as output pins, commonly used for motor control or other output-based functionalities. Pins S1 and S2, on the other hand, are configured as input pins with pull-up resistors, making them ideal for reading sensor data or detecting external signals. This structured representation simplifies the understanding and utilization of the hardware, especially when integrating various peripherals or debugging pin-related issues.
+
 #
 ### MicroPython on the ESP32
 
