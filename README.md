@@ -117,6 +117,8 @@ MicroPython on the ESP32 is a powerful tool that brings the simplicity of Python
 
 > Alex: "*I like the CyberPi as an easy preassembled Python programming device.*"
 
+> "*Bond James Bond*"
+
 #
 ### Related Links
 
@@ -127,6 +129,8 @@ MicroPython on the ESP32 is a powerful tool that brings the simplicity of Python
 [Flipper Zero Simulator](https://github.com/sourceduty/Flipper_Zero_Simulator)
 <br>
 [IoT Hacker](https://github.com/sourceduty/IoT_Hacker)
+<br>
+[James Bond Gadgets](https://github.com/sourceduty/James_Bond_Gadgets)
 
 ***
 Copyright (C) 2024, Sourceduty - All Rights Reserved.
