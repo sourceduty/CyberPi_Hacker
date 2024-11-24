@@ -131,6 +131,8 @@ MicroPython on the ESP32 is a powerful tool that brings the simplicity of Python
 [IoT Hacker](https://github.com/sourceduty/IoT_Hacker)
 <br>
 [James Bond Gadgets](https://github.com/sourceduty/James_Bond_Gadgets)
+<br>
+[Makeblock Libraries](https://github.com/Makeblock-official/Makeblock-Libraries)
 
 ***
 Copyright (C) 2024, Sourceduty - All Rights Reserved.
