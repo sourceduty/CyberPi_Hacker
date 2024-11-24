@@ -97,6 +97,8 @@ Before modifying any of these files, it’s crucial to create backups of the ori
 #
 ### Pinout
 
+![Bond](https://github.com/user-attachments/assets/18423212-cccf-4d76-94b4-ce843341d884)
+
 | Pin Name | GPIO Number | Mode       | Description                |
 |----------|-------------|------------|----------------------------|
 | M1       | GPIO12      | Output     | Motor control/output pin   |
@@ -116,8 +118,6 @@ MicroPython on the ESP32 is a powerful tool that brings the simplicity of Python
 #
 
 > Alex: "*I like the CyberPi as an easy preassembled Python programming device.*"
-
-> "*Bond James Bond*"
 
 #
 ### Related Links
