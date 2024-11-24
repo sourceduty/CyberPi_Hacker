@@ -14,7 +14,6 @@ Hack the CyberPi with Python.
 Explain how to connect CyberPi to external devices.
 Print modules and directories.
 What are some beginner projects for CyberPi in Python?
-help('modules')
 ```
 
 #
@@ -43,6 +42,10 @@ The connection between mlink and Makeblock is rooted in their commitment to prov
 Hacking the CyberPi without mLink involves leveraging its MicroPython base for direct interaction and programming. The CyberPi supports serial communication, allowing you to bypass mLink using tools like terminal emulators (e.g., PuTTY or screen) and MicroPython utilities such as ampy. Start by connecting the CyberPi via USB and identifying its serial port (e.g., /dev/ttyUSB0 on Linux/macOS or COM ports on Windows). Use a terminal to access the MicroPython REPL, where you can type commands directly to control the device. For example, commands like import cyberpi and cyberpi.led.on('blue') allow you to execute actions in real time. This method provides a hands-on way to program and debug the CyberPi directly, bypassing the need for mLink's graphical interface.
 
 To upload scripts, save your Python code as main.py and use tools like ampy to transfer it to the CyberPi. For instance, the command ampy --port /dev/ttyUSB0 put main.py uploads your script, which will run automatically after the CyberPi reboots. You can also automate commands using Python libraries like pyserial for real-time control, enabling advanced scripting and interaction. This approach gives you flexibility and deeper control over the CyberPi while avoiding reliance on proprietary tools. However, ensure you back up existing scripts and avoid overwriting critical system files to prevent unintended issues. If needed, you can restore default settings via hardware reset or mBlock.
+
+```
+help('modules')
+```
 
 #
 ### Classes
