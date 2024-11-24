@@ -123,6 +123,13 @@ MicroPython on the ESP32 is a powerful tool that brings the simplicity of Python
 CyberPi and Raspberry Pi Zero both serve as compact computing platforms, but they cater to different audiences and use cases. CyberPi, with its rich set of onboard sensors, a full-color screen, and built-in Wi-Fi and Bluetooth, is designed for educational and IoT projects, making it ideal for beginners and students exploring coding, robotics, and AI. Its integration with platforms like mBlock ensures a smoother learning curve. Raspberry Pi Zero, on the other hand, is a more versatile and powerful microcomputer capable of running a full Linux OS, suitable for advanced users in diverse fields from prototyping to media servers. While CyberPi emphasizes ease of use with built-in features and educational software, Pi Zero offers broader flexibility and power for custom projects but often requires additional peripherals to match CyberPi's all-in-one capabilities​​​.
 
 #
+### Flipper Zero
+
+![Flipper](https://github.com/user-attachments/assets/85fadee0-c70a-4432-928d-dc96e171c5f1)
+
+CyberPi and Flipper Zero cater to distinct yet occasionally overlapping audiences, with CyberPi focusing on education and hands-on learning, while Flipper Zero appeals to hobbyists and cybersecurity enthusiasts. CyberPi is equipped with built-in sensors, a color screen, Wi-Fi, and Bluetooth, providing a platform ideal for teaching coding, IoT, and robotics in a structured educational context. Its compatibility with mBlock software makes it beginner-friendly for students and educators alike. Flipper Zero, by contrast, excels as a versatile multitool for hardware hacking, with features like radio signal transmission, NFC, and IR capabilities tailored for penetration testing and hardware exploration. While CyberPi emphasizes structured projects and skill-building in STEM fields, Flipper Zero offers more niche, specialized functionality for advanced users seeking a portable tool for exploring and testing hardware vulnerabilities​​​.
+
+#
 
 > Alex: "*I like the CyberPi as an easy preassembled Python programming device.*"
 
