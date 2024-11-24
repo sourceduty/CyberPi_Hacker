@@ -1,0 +1,628 @@
+High-level members in the cyberpi library:
+['__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__path__', '__spec__', 'angle_sensor', 'audio', 'barchart', 'broadcast', 'broadcast_and_wait', 'button', 'chart', 'cloud', 'cloud_broadcast', 'console', 'controller', 'cyberpi', 'display', 'dual_rgb_sensor', 'event', 'flame_sensor', 'get_acc', 'get_battery', 'get_ble', 'get_bri', 'get_brightness', 'get_extra_battery', 'get_firmware_version', 'get_gyro', 'get_language', 'get_loudness', 'get_mac_address', 'get_name', 'get_pitch', 'get_roll', 'get_rotation', 'get_shakeval', 'get_shield', 'get_wave_angle', 'get_wave_speed', 'get_yaw', 'goto_offline_mode', 'goto_online_mode', 'humiture', 'is_anticlockwise', 'is_clockwise', 'is_facedown', 'is_faceup', 'is_freefall', 'is_handstand', 'is_makex_mode', 'is_shake', 'is_stand', 'is_tiltback', 'is_tiltforward', 'is_tiltleft', 'is_tiltright', 'is_wavedown', 'is_waveleft', 'is_waveright', 'is_waveup', 'joystick', 'led', 'led_driver', 'led_matrix', 'light_sensor', 'linechart', 'magnetic_sensor', 'mbot2', 'mesh', 'mesh_broadcast', 'motion_sensor', 'motor_driver', 'mq2', 'multi_touch', 'pir', 'pocket', 'quad_rgb_sensor', 'ranging_sensor', 'reset_rotation', 'reset_yaw', 'restart', 'rgb_led', 'science', 'servo_driver', 'set_name', 'set_recognition_url', 'slider', 'smart_camera', 'soil_sensor', 'sound_sensor', 'speaker', 'table', 'temp_sensor', 'timer', 'ultrasonic', 'ultrasonic2', 'upload_broadcast', 'wifi', 'wifi_broadcast']
+
+Detailed inspection of each member:
+
+--- Inspecting __builtins__ ---
+Type: <class 'dict'>
+It is not callable.
+Attributes/Methods:
+['__class__', '__class_getitem__', '__contains__', '__delattr__', '__delitem__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getitem__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__ior__', '__iter__', '__le__', '__len__', '__lt__', '__ne__', '__new__', '__or__', '__reduce__', '__reduce_ex__', '__repr__', '__reversed__', '__ror__', '__setattr__', '__setitem__', '__sizeof__', '__str__', '__subclasshook__', 'clear', 'copy', 'fromkeys', 'get', 'items', 'keys', 'pop', 'popitem', 'setdefault', 'update', 'values']
+
+--- Inspecting __cached__ ---
+Type: <class 'str'>
+It is not callable.
+Attributes/Methods:
+['__add__', '__class__', '__contains__', '__delattr__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getitem__', '__getnewargs__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__iter__', '__le__', '__len__', '__lt__', '__mod__', '__mul__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__rmod__', '__rmul__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', 'capitalize', 'casefold', 'center', 'count', 'encode', 'endswith', 'expandtabs', 'find', 'format', 'format_map', 'index', 'isalnum', 'isalpha', 'isascii', 'isdecimal', 'isdigit', 'isidentifier', 'islower', 'isnumeric', 'isprintable', 'isspace', 'istitle', 'isupper', 'join', 'ljust', 'lower', 'lstrip', 'maketrans', 'partition', 'removeprefix', 'removesuffix', 'replace', 'rfind', 'rindex', 'rjust', 'rpartition', 'rsplit', 'rstrip', 'split', 'splitlines', 'startswith', 'strip', 'swapcase', 'title', 'translate', 'upper', 'zfill']
+
+--- Inspecting __doc__ ---
+Type: <class 'NoneType'>
+It is not callable.
+Attributes/Methods:
+['__bool__', '__class__', '__delattr__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__']
+
+--- Inspecting __file__ ---
+Type: <class 'str'>
+It is not callable.
+Attributes/Methods:
+['__add__', '__class__', '__contains__', '__delattr__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getitem__', '__getnewargs__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__iter__', '__le__', '__len__', '__lt__', '__mod__', '__mul__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__rmod__', '__rmul__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', 'capitalize', 'casefold', 'center', 'count', 'encode', 'endswith', 'expandtabs', 'find', 'format', 'format_map', 'index', 'isalnum', 'isalpha', 'isascii', 'isdecimal', 'isdigit', 'isidentifier', 'islower', 'isnumeric', 'isprintable', 'isspace', 'istitle', 'isupper', 'join', 'ljust', 'lower', 'lstrip', 'maketrans', 'partition', 'removeprefix', 'removesuffix', 'replace', 'rfind', 'rindex', 'rjust', 'rpartition', 'rsplit', 'rstrip', 'split', 'splitlines', 'startswith', 'strip', 'swapcase', 'title', 'translate', 'upper', 'zfill']
+
+--- Inspecting __loader__ ---
+Type: <class '_frozen_importlib_external.SourceFileLoader'>
+It is not callable.
+Attributes/Methods:
+['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_cache_bytecode', 'create_module', 'exec_module', 'get_code', 'get_data', 'get_filename', 'get_resource_reader', 'get_source', 'is_package', 'load_module', 'name', 'path', 'path_mtime', 'path_stats', 'set_data', 'source_to_code']
+
+--- Inspecting __name__ ---
+Type: <class 'str'>
+It is not callable.
+Attributes/Methods:
+['__add__', '__class__', '__contains__', '__delattr__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getitem__', '__getnewargs__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__iter__', '__le__', '__len__', '__lt__', '__mod__', '__mul__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__rmod__', '__rmul__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', 'capitalize', 'casefold', 'center', 'count', 'encode', 'endswith', 'expandtabs', 'find', 'format', 'format_map', 'index', 'isalnum', 'isalpha', 'isascii', 'isdecimal', 'isdigit', 'isidentifier', 'islower', 'isnumeric', 'isprintable', 'isspace', 'istitle', 'isupper', 'join', 'ljust', 'lower', 'lstrip', 'maketrans', 'partition', 'removeprefix', 'removesuffix', 'replace', 'rfind', 'rindex', 'rjust', 'rpartition', 'rsplit', 'rstrip', 'split', 'splitlines', 'startswith', 'strip', 'swapcase', 'title', 'translate', 'upper', 'zfill']
+
+--- Inspecting __package__ ---
+Type: <class 'str'>
+It is not callable.
+Attributes/Methods:
+['__add__', '__class__', '__contains__', '__delattr__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getitem__', '__getnewargs__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__iter__', '__le__', '__len__', '__lt__', '__mod__', '__mul__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__rmod__', '__rmul__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', 'capitalize', 'casefold', 'center', 'count', 'encode', 'endswith', 'expandtabs', 'find', 'format', 'format_map', 'index', 'isalnum', 'isalpha', 'isascii', 'isdecimal', 'isdigit', 'isidentifier', 'islower', 'isnumeric', 'isprintable', 'isspace', 'istitle', 'isupper', 'join', 'ljust', 'lower', 'lstrip', 'maketrans', 'partition', 'removeprefix', 'removesuffix', 'replace', 'rfind', 'rindex', 'rjust', 'rpartition', 'rsplit', 'rstrip', 'split', 'splitlines', 'startswith', 'strip', 'swapcase', 'title', 'translate', 'upper', 'zfill']
+
+--- Inspecting __path__ ---
+Type: <class 'list'>
+It is not callable.
+Attributes/Methods:
+['__add__', '__class__', '__class_getitem__', '__contains__', '__delattr__', '__delitem__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getitem__', '__getstate__', '__gt__', '__hash__', '__iadd__', '__imul__', '__init__', '__init_subclass__', '__iter__', '__le__', '__len__', '__lt__', '__mul__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__reversed__', '__rmul__', '__setattr__', '__setitem__', '__sizeof__', '__str__', '__subclasshook__', 'append', 'clear', 'copy', 'count', 'extend', 'index', 'insert', 'pop', 'remove', 'reverse', 'sort']
+
+--- Inspecting __spec__ ---
+Type: <class '_frozen_importlib.ModuleSpec'>
+It is not callable.
+Attributes/Methods:
+['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_cached', '_initializing', '_set_fileattr', '_uninitialized_submodules', 'cached', 'has_location', 'loader', 'loader_state', 'name', 'origin', 'parent', 'submodule_search_locations']
+
+--- Inspecting angle_sensor ---
+Type: <class 'makeblock.modules.cyberpi.api_cyberpi_api.angle_sensor_c'>
+It is not callable.
+Attributes/Methods:
+['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', 'get', 'get_speed', 'is_anticlockwise', 'is_clockwise', 'reset']
+
+--- Inspecting audio ---
+Type: <class 'makeblock.modules.cyberpi.api_cyberpi_api.audio_c'>
+It is not callable.
+Attributes/Methods:
+['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', 'add_tempo', 'add_vol', 'get_tempo', 'get_vol', 'play', 'play_drum', 'play_music', 'play_note', 'play_record', 'play_record_until', 'play_tone', 'play_until', 'record', 'set_tempo', 'set_vol', 'stop', 'stop_record']
+
+--- Inspecting barchart ---
+Type: <class 'makeblock.modules.cyberpi.api_cyberpi_api.barchart_c'>
+It is not callable.
+Attributes/Methods:
+['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', 'add']
+
+--- Inspecting broadcast ---
+Type: <class 'function'>
+It is callable (function or method).
+Attributes/Methods:
+['__annotations__', '__builtins__', '__call__', '__class__', '__closure__', '__code__', '__defaults__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__get__', '__getattribute__', '__getstate__', '__globals__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__kwdefaults__', '__le__', '__lt__', '__module__', '__name__', '__ne__', '__new__', '__qualname__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__type_params__']
+
+--- Inspecting broadcast_and_wait ---
+Type: <class 'function'>
+It is callable (function or method).
+Attributes/Methods:
+['__annotations__', '__builtins__', '__call__', '__class__', '__closure__', '__code__', '__defaults__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__get__', '__getattribute__', '__getstate__', '__globals__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__kwdefaults__', '__le__', '__lt__', '__module__', '__name__', '__ne__', '__new__', '__qualname__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__type_params__']
+
+--- Inspecting button ---
+Type: <class 'makeblock.modules.cyberpi.api_cyberpi_api.button_c'>
+It is not callable.
+Attributes/Methods:
+['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', 'get_count', 'is_press', 'reset_count']
+
+--- Inspecting chart ---
+Type: <class 'makeblock.modules.cyberpi.api_cyberpi_api.chart_c'>
+It is not callable.
+Attributes/Methods:
+['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', 'clear', 'set_name']
+
+--- Inspecting cloud ---
+Type: <class 'makeblock.modules.cyberpi.api_cyberpi_api.cloud_c'>
+It is not callable.
+Attributes/Methods:
+['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', 'air', 'listen', 'listen_result', 'recognition_set_url', 'setkey', 'time', 'translate', 'translate_set_url', 'tts', 'tts_set_url', 'weather']
+
+--- Inspecting cloud_broadcast ---
+Type: <class 'makeblock.modules.cyberpi.api_cyberpi_api.cloud_broadcast_c'>
+It is not callable.
+Attributes/Methods:
+['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', 'get', 'get_info_online', 'set']
+
+--- Inspecting console ---
+Type: <class 'makeblock.modules.cyberpi.api_cyberpi_api.console_c'>
+It is not callable.
+Attributes/Methods:
+['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', 'clear', 'print', 'println']
+
+--- Inspecting controller ---
+Type: <class 'makeblock.modules.cyberpi.api_cyberpi_api.controller_c'>
+It is not callable.
+Attributes/Methods:
+['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', 'get_count', 'is_press', 'reset_count']
+
+--- Inspecting cyberpi ---
+Type: <class 'module'>
+It is not callable.
+Attributes/Methods:
+['BaseModuleAuto', 'HalocodePackData', '__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__spec__', 'angle_sensor', 'angle_sensor_c', 'audio', 'audio_c', 'autoconnect', 'barchart', 'barchart_c', 'board', 'broadcast', 'broadcast_and_wait', 'button', 'button_c', 'chart', 'chart_c', 'cloud', 'cloud_broadcast', 'cloud_broadcast_c', 'cloud_c', 'console', 'console_c', 'controller', 'controller_c', 'display', 'display_c', 'dual_rgb_sensor', 'dual_rgb_sensor_c', 'event', 'flame_sensor', 'flame_sensor_c', 'get_acc', 'get_battery', 'get_ble', 'get_bri', 'get_brightness', 'get_extra_battery', 'get_firmware_version', 'get_gyro', 'get_language', 'get_loudness', 'get_mac_address', 'get_name', 'get_pitch', 'get_roll', 'get_rotation', 'get_shakeval', 'get_shield', 'get_wave_angle', 'get_wave_speed', 'get_yaw', 'goto_offline_mode', 'goto_online_mode', 'humiture', 'humiture_c', 'is_anticlockwise', 'is_clockwise', 'is_facedown', 'is_faceup', 'is_freefall', 'is_handstand', 'is_makex_mode', 'is_shake', 'is_stand', 'is_tiltback', 'is_tiltforward', 'is_tiltleft', 'is_tiltright', 'is_wavedown', 'is_waveleft', 'is_waveright', 'is_waveup', 'joystick', 'joystick_c', 'led', 'led_c', 'led_driver', 'led_driver_c', 'led_matrix', 'led_matrix_c', 'light_sensor', 'light_sensor_c', 'linechart', 'linechart_c', 'magnetic_sensor', 'magnetic_sensor_c', 'mbot2', 'mbot2_c', 'mesh', 'mesh_broadcast', 'mesh_broadcast_c', 'mesh_c', 'module_auto', 'motion_sensor', 'motion_sensor_c', 'motor_driver', 'motor_driver_c', 'mq2', 'mq2_c', 'multi_touch', 'multi_touch_c', 'pir', 'pir_c', 'pocket', 'pocket_c', 'quad_rgb_sensor', 'quad_rgb_sensor_c', 'ranging_sensor', 'ranging_sensor_c', 'reset_rotation', 'reset_yaw', 'restart', 'rgb_led', 'rgb_led_c', 'science', 'science_c', 'servo_driver', 'servo_driver_c', 'set_name', 'set_recognition_url', 'slider', 'slider_c', 'smart_camera', 'smart_camera_c', 'soil_sensor', 'soil_sensor_c', 'sound_sensor', 'sound_sensor_c', 'speaker', 'speaker_c', 'table', 'table_c', 'temp_sensor', 'temp_sensor_c', 'time', 'timer', 'timer_c', 'ultrasonic', 'ultrasonic2', 'ultrasonic2_c', 'ultrasonic_c', 'upload_broadcast', 'upload_broadcast_c', 'wifi', 'wifi_broadcast', 'wifi_broadcast_c', 'wifi_c']
+
+--- Inspecting display ---
+Type: <class 'makeblock.modules.cyberpi.api_cyberpi_api.display_c'>
+It is not callable.
+Attributes/Methods:
+['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', 'clear', 'label', 'off', 'rotate_to', 'set_brush', 'set_title_color', 'show_label']
+
+--- Inspecting dual_rgb_sensor ---
+Type: <class 'makeblock.modules.cyberpi.api_cyberpi_api.dual_rgb_sensor_c'>
+It is not callable.
+Attributes/Methods:
+['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', 'get_blue', 'get_gray_level', 'get_green', 'get_light', 'get_red', 'is_color', 'off_led', 'set_led']
+
+--- Inspecting event ---
+Type: <class 'module'>
+It is not callable.
+Attributes/Methods:
+['__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__spec__', 'cloud_broadcast', 'controller_id_table', 'event_manager', 'get_eve_id', 'greater_than', 'is_anticlockwise', 'is_clockwise', 'is_facedown', 'is_faceup', 'is_freefall', 'is_press', 'is_shake', 'is_stand', 'is_tiltback', 'is_tiltforward', 'is_tiltleft', 'is_tiltright', 'is_wavedown', 'is_waveleft', 'is_waveright', 'is_waveup', 'mesh_broadcast', 'module_obj', 'set_mdoule_obj', 'smaller_than', 'start', 'wifi_broadcast']
+
+--- Inspecting flame_sensor ---
+Type: <class 'makeblock.modules.cyberpi.api_cyberpi_api.flame_sensor_c'>
+It is not callable.
+Attributes/Methods:
+['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', 'get', 'is_detect']
+
+--- Inspecting get_acc ---
+Type: <class 'function'>
+It is callable (function or method).
+Attributes/Methods:
+['__annotations__', '__builtins__', '__call__', '__class__', '__closure__', '__code__', '__defaults__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__get__', '__getattribute__', '__getstate__', '__globals__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__kwdefaults__', '__le__', '__lt__', '__module__', '__name__', '__ne__', '__new__', '__qualname__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__type_params__']
+
+--- Inspecting get_battery ---
+Type: <class 'function'>
+It is callable (function or method).
+Attributes/Methods:
+['__annotations__', '__builtins__', '__call__', '__class__', '__closure__', '__code__', '__defaults__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__get__', '__getattribute__', '__getstate__', '__globals__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__kwdefaults__', '__le__', '__lt__', '__module__', '__name__', '__ne__', '__new__', '__qualname__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__type_params__']
+
+--- Inspecting get_ble ---
+Type: <class 'function'>
+It is callable (function or method).
+Attributes/Methods:
+['__annotations__', '__builtins__', '__call__', '__class__', '__closure__', '__code__', '__defaults__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__get__', '__getattribute__', '__getstate__', '__globals__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__kwdefaults__', '__le__', '__lt__', '__module__', '__name__', '__ne__', '__new__', '__qualname__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__type_params__']
+
+--- Inspecting get_bri ---
+Type: <class 'function'>
+It is callable (function or method).
+Attributes/Methods:
+['__annotations__', '__builtins__', '__call__', '__class__', '__closure__', '__code__', '__defaults__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__get__', '__getattribute__', '__getstate__', '__globals__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__kwdefaults__', '__le__', '__lt__', '__module__', '__name__', '__ne__', '__new__', '__qualname__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__type_params__']
+
+--- Inspecting get_brightness ---
+Type: <class 'function'>
+It is callable (function or method).
+Attributes/Methods:
+['__annotations__', '__builtins__', '__call__', '__class__', '__closure__', '__code__', '__defaults__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__get__', '__getattribute__', '__getstate__', '__globals__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__kwdefaults__', '__le__', '__lt__', '__module__', '__name__', '__ne__', '__new__', '__qualname__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__type_params__']
+
+--- Inspecting get_extra_battery ---
+Type: <class 'function'>
+It is callable (function or method).
+Attributes/Methods:
+['__annotations__', '__builtins__', '__call__', '__class__', '__closure__', '__code__', '__defaults__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__get__', '__getattribute__', '__getstate__', '__globals__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__kwdefaults__', '__le__', '__lt__', '__module__', '__name__', '__ne__', '__new__', '__qualname__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__type_params__']
+
+--- Inspecting get_firmware_version ---
+Type: <class 'function'>
+It is callable (function or method).
+Attributes/Methods:
+['__annotations__', '__builtins__', '__call__', '__class__', '__closure__', '__code__', '__defaults__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__get__', '__getattribute__', '__getstate__', '__globals__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__kwdefaults__', '__le__', '__lt__', '__module__', '__name__', '__ne__', '__new__', '__qualname__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__type_params__']
+
+--- Inspecting get_gyro ---
+Type: <class 'function'>
+It is callable (function or method).
+Attributes/Methods:
+['__annotations__', '__builtins__', '__call__', '__class__', '__closure__', '__code__', '__defaults__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__get__', '__getattribute__', '__getstate__', '__globals__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__kwdefaults__', '__le__', '__lt__', '__module__', '__name__', '__ne__', '__new__', '__qualname__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__type_params__']
+
+--- Inspecting get_language ---
+Type: <class 'function'>
+It is callable (function or method).
+Attributes/Methods:
+['__annotations__', '__builtins__', '__call__', '__class__', '__closure__', '__code__', '__defaults__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__get__', '__getattribute__', '__getstate__', '__globals__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__kwdefaults__', '__le__', '__lt__', '__module__', '__name__', '__ne__', '__new__', '__qualname__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__type_params__']
+
+--- Inspecting get_loudness ---
+Type: <class 'function'>
+It is callable (function or method).
+Attributes/Methods:
+['__annotations__', '__builtins__', '__call__', '__class__', '__closure__', '__code__', '__defaults__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__get__', '__getattribute__', '__getstate__', '__globals__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__kwdefaults__', '__le__', '__lt__', '__module__', '__name__', '__ne__', '__new__', '__qualname__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__type_params__']
+
+--- Inspecting get_mac_address ---
+Type: <class 'function'>
+It is callable (function or method).
+Attributes/Methods:
+['__annotations__', '__builtins__', '__call__', '__class__', '__closure__', '__code__', '__defaults__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__get__', '__getattribute__', '__getstate__', '__globals__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__kwdefaults__', '__le__', '__lt__', '__module__', '__name__', '__ne__', '__new__', '__qualname__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__type_params__']
+
+--- Inspecting get_name ---
+Type: <class 'function'>
+It is callable (function or method).
+Attributes/Methods:
+['__annotations__', '__builtins__', '__call__', '__class__', '__closure__', '__code__', '__defaults__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__get__', '__getattribute__', '__getstate__', '__globals__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__kwdefaults__', '__le__', '__lt__', '__module__', '__name__', '__ne__', '__new__', '__qualname__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__type_params__']
+
+--- Inspecting get_pitch ---
+Type: <class 'function'>
+It is callable (function or method).
+Attributes/Methods:
+['__annotations__', '__builtins__', '__call__', '__class__', '__closure__', '__code__', '__defaults__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__get__', '__getattribute__', '__getstate__', '__globals__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__kwdefaults__', '__le__', '__lt__', '__module__', '__name__', '__ne__', '__new__', '__qualname__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__type_params__']
+
+--- Inspecting get_roll ---
+Type: <class 'function'>
+It is callable (function or method).
+Attributes/Methods:
+['__annotations__', '__builtins__', '__call__', '__class__', '__closure__', '__code__', '__defaults__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__get__', '__getattribute__', '__getstate__', '__globals__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__kwdefaults__', '__le__', '__lt__', '__module__', '__name__', '__ne__', '__new__', '__qualname__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__type_params__']
+
+--- Inspecting get_rotation ---
+Type: <class 'function'>
+It is callable (function or method).
+Attributes/Methods:
+['__annotations__', '__builtins__', '__call__', '__class__', '__closure__', '__code__', '__defaults__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__get__', '__getattribute__', '__getstate__', '__globals__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__kwdefaults__', '__le__', '__lt__', '__module__', '__name__', '__ne__', '__new__', '__qualname__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__type_params__']
+
+--- Inspecting get_shakeval ---
+Type: <class 'function'>
+It is callable (function or method).
+Attributes/Methods:
+['__annotations__', '__builtins__', '__call__', '__class__', '__closure__', '__code__', '__defaults__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__get__', '__getattribute__', '__getstate__', '__globals__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__kwdefaults__', '__le__', '__lt__', '__module__', '__name__', '__ne__', '__new__', '__qualname__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__type_params__']
+
+--- Inspecting get_shield ---
+Type: <class 'function'>
+It is callable (function or method).
+Attributes/Methods:
+['__annotations__', '__builtins__', '__call__', '__class__', '__closure__', '__code__', '__defaults__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__get__', '__getattribute__', '__getstate__', '__globals__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__kwdefaults__', '__le__', '__lt__', '__module__', '__name__', '__ne__', '__new__', '__qualname__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__type_params__']
+
+--- Inspecting get_wave_angle ---
+Type: <class 'function'>
+It is callable (function or method).
+Attributes/Methods:
+['__annotations__', '__builtins__', '__call__', '__class__', '__closure__', '__code__', '__defaults__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__get__', '__getattribute__', '__getstate__', '__globals__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__kwdefaults__', '__le__', '__lt__', '__module__', '__name__', '__ne__', '__new__', '__qualname__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__type_params__']
+
+--- Inspecting get_wave_speed ---
+Type: <class 'function'>
+It is callable (function or method).
+Attributes/Methods:
+['__annotations__', '__builtins__', '__call__', '__class__', '__closure__', '__code__', '__defaults__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__get__', '__getattribute__', '__getstate__', '__globals__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__kwdefaults__', '__le__', '__lt__', '__module__', '__name__', '__ne__', '__new__', '__qualname__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__type_params__']
+
+--- Inspecting get_yaw ---
+Type: <class 'function'>
+It is callable (function or method).
+Attributes/Methods:
+['__annotations__', '__builtins__', '__call__', '__class__', '__closure__', '__code__', '__defaults__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__get__', '__getattribute__', '__getstate__', '__globals__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__kwdefaults__', '__le__', '__lt__', '__module__', '__name__', '__ne__', '__new__', '__qualname__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__type_params__']
+
+--- Inspecting goto_offline_mode ---
+Type: <class 'function'>
+It is callable (function or method).
+Attributes/Methods:
+['__annotations__', '__builtins__', '__call__', '__class__', '__closure__', '__code__', '__defaults__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__get__', '__getattribute__', '__getstate__', '__globals__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__kwdefaults__', '__le__', '__lt__', '__module__', '__name__', '__ne__', '__new__', '__qualname__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__type_params__']
+
+--- Inspecting goto_online_mode ---
+Type: <class 'function'>
+It is callable (function or method).
+Attributes/Methods:
+['__annotations__', '__builtins__', '__call__', '__class__', '__closure__', '__code__', '__defaults__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__get__', '__getattribute__', '__getstate__', '__globals__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__kwdefaults__', '__le__', '__lt__', '__module__', '__name__', '__ne__', '__new__', '__qualname__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__type_params__']
+
+--- Inspecting humiture ---
+Type: <class 'makeblock.modules.cyberpi.api_cyberpi_api.humiture_c'>
+It is not callable.
+Attributes/Methods:
+['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', 'get_humidity', 'get_temp']
+
+--- Inspecting is_anticlockwise ---
+Type: <class 'function'>
+It is callable (function or method).
+Attributes/Methods:
+['__annotations__', '__builtins__', '__call__', '__class__', '__closure__', '__code__', '__defaults__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__get__', '__getattribute__', '__getstate__', '__globals__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__kwdefaults__', '__le__', '__lt__', '__module__', '__name__', '__ne__', '__new__', '__qualname__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__type_params__']
+
+--- Inspecting is_clockwise ---
+Type: <class 'function'>
+It is callable (function or method).
+Attributes/Methods:
+['__annotations__', '__builtins__', '__call__', '__class__', '__closure__', '__code__', '__defaults__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__get__', '__getattribute__', '__getstate__', '__globals__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__kwdefaults__', '__le__', '__lt__', '__module__', '__name__', '__ne__', '__new__', '__qualname__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__type_params__']
+
+--- Inspecting is_facedown ---
+Type: <class 'function'>
+It is callable (function or method).
+Attributes/Methods:
+['__annotations__', '__builtins__', '__call__', '__class__', '__closure__', '__code__', '__defaults__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__get__', '__getattribute__', '__getstate__', '__globals__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__kwdefaults__', '__le__', '__lt__', '__module__', '__name__', '__ne__', '__new__', '__qualname__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__type_params__']
+
+--- Inspecting is_faceup ---
+Type: <class 'function'>
+It is callable (function or method).
+Attributes/Methods:
+['__annotations__', '__builtins__', '__call__', '__class__', '__closure__', '__code__', '__defaults__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__get__', '__getattribute__', '__getstate__', '__globals__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__kwdefaults__', '__le__', '__lt__', '__module__', '__name__', '__ne__', '__new__', '__qualname__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__type_params__']
+
+--- Inspecting is_freefall ---
+Type: <class 'function'>
+It is callable (function or method).
+Attributes/Methods:
+['__annotations__', '__builtins__', '__call__', '__class__', '__closure__', '__code__', '__defaults__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__get__', '__getattribute__', '__getstate__', '__globals__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__kwdefaults__', '__le__', '__lt__', '__module__', '__name__', '__ne__', '__new__', '__qualname__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__type_params__']
+
+--- Inspecting is_handstand ---
+Type: <class 'function'>
+It is callable (function or method).
+Attributes/Methods:
+['__annotations__', '__builtins__', '__call__', '__class__', '__closure__', '__code__', '__defaults__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__get__', '__getattribute__', '__getstate__', '__globals__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__kwdefaults__', '__le__', '__lt__', '__module__', '__name__', '__ne__', '__new__', '__qualname__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__type_params__']
+
+--- Inspecting is_makex_mode ---
+Type: <class 'function'>
+It is callable (function or method).
+Attributes/Methods:
+['__annotations__', '__builtins__', '__call__', '__class__', '__closure__', '__code__', '__defaults__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__get__', '__getattribute__', '__getstate__', '__globals__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__kwdefaults__', '__le__', '__lt__', '__module__', '__name__', '__ne__', '__new__', '__qualname__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__type_params__']
+
+--- Inspecting is_shake ---
+Type: <class 'function'>
+It is callable (function or method).
+Attributes/Methods:
+['__annotations__', '__builtins__', '__call__', '__class__', '__closure__', '__code__', '__defaults__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__get__', '__getattribute__', '__getstate__', '__globals__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__kwdefaults__', '__le__', '__lt__', '__module__', '__name__', '__ne__', '__new__', '__qualname__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__type_params__']
+
+--- Inspecting is_stand ---
+Type: <class 'function'>
+It is callable (function or method).
+Attributes/Methods:
+['__annotations__', '__builtins__', '__call__', '__class__', '__closure__', '__code__', '__defaults__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__get__', '__getattribute__', '__getstate__', '__globals__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__kwdefaults__', '__le__', '__lt__', '__module__', '__name__', '__ne__', '__new__', '__qualname__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__type_params__']
+
+--- Inspecting is_tiltback ---
+Type: <class 'function'>
+It is callable (function or method).
+Attributes/Methods:
+['__annotations__', '__builtins__', '__call__', '__class__', '__closure__', '__code__', '__defaults__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__get__', '__getattribute__', '__getstate__', '__globals__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__kwdefaults__', '__le__', '__lt__', '__module__', '__name__', '__ne__', '__new__', '__qualname__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__type_params__']
+
+--- Inspecting is_tiltforward ---
+Type: <class 'function'>
+It is callable (function or method).
+Attributes/Methods:
+['__annotations__', '__builtins__', '__call__', '__class__', '__closure__', '__code__', '__defaults__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__get__', '__getattribute__', '__getstate__', '__globals__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__kwdefaults__', '__le__', '__lt__', '__module__', '__name__', '__ne__', '__new__', '__qualname__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__type_params__']
+
+--- Inspecting is_tiltleft ---
+Type: <class 'function'>
+It is callable (function or method).
+Attributes/Methods:
+['__annotations__', '__builtins__', '__call__', '__class__', '__closure__', '__code__', '__defaults__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__get__', '__getattribute__', '__getstate__', '__globals__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__kwdefaults__', '__le__', '__lt__', '__module__', '__name__', '__ne__', '__new__', '__qualname__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__type_params__']
+
+--- Inspecting is_tiltright ---
+Type: <class 'function'>
+It is callable (function or method).
+Attributes/Methods:
+['__annotations__', '__builtins__', '__call__', '__class__', '__closure__', '__code__', '__defaults__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__get__', '__getattribute__', '__getstate__', '__globals__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__kwdefaults__', '__le__', '__lt__', '__module__', '__name__', '__ne__', '__new__', '__qualname__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__type_params__']
+
+--- Inspecting is_wavedown ---
+Type: <class 'function'>
+It is callable (function or method).
+Attributes/Methods:
+['__annotations__', '__builtins__', '__call__', '__class__', '__closure__', '__code__', '__defaults__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__get__', '__getattribute__', '__getstate__', '__globals__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__kwdefaults__', '__le__', '__lt__', '__module__', '__name__', '__ne__', '__new__', '__qualname__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__type_params__']
+
+--- Inspecting is_waveleft ---
+Type: <class 'function'>
+It is callable (function or method).
+Attributes/Methods:
+['__annotations__', '__builtins__', '__call__', '__class__', '__closure__', '__code__', '__defaults__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__get__', '__getattribute__', '__getstate__', '__globals__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__kwdefaults__', '__le__', '__lt__', '__module__', '__name__', '__ne__', '__new__', '__qualname__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__type_params__']
+
+--- Inspecting is_waveright ---
+Type: <class 'function'>
+It is callable (function or method).
+Attributes/Methods:
+['__annotations__', '__builtins__', '__call__', '__class__', '__closure__', '__code__', '__defaults__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__get__', '__getattribute__', '__getstate__', '__globals__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__kwdefaults__', '__le__', '__lt__', '__module__', '__name__', '__ne__', '__new__', '__qualname__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__type_params__']
+
+--- Inspecting is_waveup ---
+Type: <class 'function'>
+It is callable (function or method).
+Attributes/Methods:
+['__annotations__', '__builtins__', '__call__', '__class__', '__closure__', '__code__', '__defaults__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__get__', '__getattribute__', '__getstate__', '__globals__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__kwdefaults__', '__le__', '__lt__', '__module__', '__name__', '__ne__', '__new__', '__qualname__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__type_params__']
+
+--- Inspecting joystick ---
+Type: <class 'makeblock.modules.cyberpi.api_cyberpi_api.joystick_c'>
+It is not callable.
+Attributes/Methods:
+['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', 'get_x', 'get_y', 'is_down', 'is_left', 'is_right', 'is_up']
+
+--- Inspecting led ---
+Type: <class 'makeblock.modules.cyberpi.api_cyberpi_api.led_c'>
+It is not callable.
+Attributes/Methods:
+['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', 'add_bri', 'get_bri', 'move', 'off', 'on', 'play', 'set_bri', 'show']
+
+--- Inspecting led_driver ---
+Type: <class 'makeblock.modules.cyberpi.api_cyberpi_api.led_driver_c'>
+It is not callable.
+Attributes/Methods:
+['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', 'add_blue', 'add_green', 'add_red', 'off', 'on', 'set_blue', 'set_green', 'set_mode', 'set_red', 'show']
+
+--- Inspecting led_matrix ---
+Type: <class 'makeblock.modules.cyberpi.api_cyberpi_api.led_matrix_c'>
+It is not callable.
+Attributes/Methods:
+['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', 'clear', 'get', 'off', 'on', 'print', 'print_at', 'print_until_done', 'show', 'show_at', 'toggle']
+
+--- Inspecting light_sensor ---
+Type: <class 'makeblock.modules.cyberpi.api_cyberpi_api.light_sensor_c'>
+It is not callable.
+Attributes/Methods:
+['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', 'get']
+
+--- Inspecting linechart ---
+Type: <class 'makeblock.modules.cyberpi.api_cyberpi_api.linechart_c'>
+It is not callable.
+Attributes/Methods:
+['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', 'add', 'set_step']
+
+--- Inspecting magnetic_sensor ---
+Type: <class 'makeblock.modules.cyberpi.api_cyberpi_api.magnetic_sensor_c'>
+It is not callable.
+Attributes/Methods:
+['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', 'get_count', 'is_detect', 'reset_count']
+
+--- Inspecting mbot2 ---
+Type: <class 'makeblock.modules.cyberpi.api_cyberpi_api.mbot2_c'>
+It is not callable.
+Attributes/Methods:
+['EM_get_angle', 'EM_get_power', 'EM_get_speed', 'EM_lock', 'EM_reset_angle', 'EM_set_power', 'EM_set_speed', 'EM_stop', 'EM_turn', '__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', 'backward', 'drive_power', 'drive_speed', 'forward', 'led_add_bri', 'led_get_bri', 'led_move', 'led_off', 'led_on', 'led_set_bri', 'led_show', 'motor_add', 'motor_drive', 'motor_get', 'motor_set', 'motor_stop', 'read_analog', 'read_digital', 'servo_add', 'servo_drive', 'servo_get', 'servo_release', 'servo_set', 'set_pwm', 'straight', 'turn', 'turn_left', 'turn_right', 'write_digital']
+
+--- Inspecting mesh ---
+Type: <class 'makeblock.modules.cyberpi.api_cyberpi_api.mesh_c'>
+It is not callable.
+Attributes/Methods:
+['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', 'get_info_once', 'join', 'set']
+
+--- Inspecting mesh_broadcast ---
+Type: <class 'makeblock.modules.cyberpi.api_cyberpi_api.mesh_broadcast_c'>
+It is not callable.
+Attributes/Methods:
+['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', 'get', 'set']
+
+--- Inspecting motion_sensor ---
+Type: <class 'makeblock.modules.cyberpi.api_cyberpi_api.motion_sensor_c'>
+It is not callable.
+Attributes/Methods:
+['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', 'get_accel', 'get_gyro', 'get_pitch', 'get_roll', 'get_rotation', 'get_shakeval', 'get_yaw', 'is_facedown', 'is_faceup', 'is_shake', 'is_tiltdown', 'is_tiltleft', 'is_tiltright', 'is_tiltup', 'reset_rotation']
+
+--- Inspecting motor_driver ---
+Type: <class 'makeblock.modules.cyberpi.api_cyberpi_api.motor_driver_c'>
+It is not callable.
+Attributes/Methods:
+['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', 'add', 'get', 'get_load', 'set', 'stop']
+
+--- Inspecting mq2 ---
+Type: <class 'makeblock.modules.cyberpi.api_cyberpi_api.mq2_c'>
+It is not callable.
+Attributes/Methods:
+['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', 'get', 'is_detect']
+
+--- Inspecting multi_touch ---
+Type: <class 'makeblock.modules.cyberpi.api_cyberpi_api.multi_touch_c'>
+It is not callable.
+Attributes/Methods:
+['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', 'is_touch', 'reset', 'set']
+
+--- Inspecting pir ---
+Type: <class 'makeblock.modules.cyberpi.api_cyberpi_api.pir_c'>
+It is not callable.
+Attributes/Methods:
+['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', 'get_count', 'is_detect', 'reset_count']
+
+--- Inspecting pocket ---
+Type: <class 'makeblock.modules.cyberpi.api_cyberpi_api.pocket_c'>
+It is not callable.
+Attributes/Methods:
+['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', 'led_add_bri', 'led_get_bri', 'led_move', 'led_off', 'led_on', 'led_set_bri', 'led_show', 'motor_add', 'motor_drive', 'motor_get', 'motor_set', 'motor_stop', 'read_analog', 'read_digital', 'servo_add', 'servo_drive', 'servo_get', 'servo_release', 'servo_set', 'set_pwm', 'write_digital']
+
+--- Inspecting quad_rgb_sensor ---
+Type: <class 'makeblock.modules.cyberpi.api_cyberpi_api.quad_rgb_sensor_c'>
+It is not callable.
+Attributes/Methods:
+['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', 'get_blue', 'get_color', 'get_color_sta', 'get_gray', 'get_green', 'get_light', 'get_line_sta', 'get_offset_track', 'get_red', 'is_background', 'is_color', 'is_line', 'off_led', 'reset', 'set_background', 'set_led', 'set_led_off', 'set_led_on', 'set_line', 'set_line_mode']
+
+--- Inspecting ranging_sensor ---
+Type: <class 'makeblock.modules.cyberpi.api_cyberpi_api.ranging_sensor_c'>
+It is not callable.
+Attributes/Methods:
+['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', 'get']
+
+--- Inspecting reset_rotation ---
+Type: <class 'function'>
+It is callable (function or method).
+Attributes/Methods:
+['__annotations__', '__builtins__', '__call__', '__class__', '__closure__', '__code__', '__defaults__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__get__', '__getattribute__', '__getstate__', '__globals__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__kwdefaults__', '__le__', '__lt__', '__module__', '__name__', '__ne__', '__new__', '__qualname__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__type_params__']
+
+--- Inspecting reset_yaw ---
+Type: <class 'function'>
+It is callable (function or method).
+Attributes/Methods:
+['__annotations__', '__builtins__', '__call__', '__class__', '__closure__', '__code__', '__defaults__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__get__', '__getattribute__', '__getstate__', '__globals__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__kwdefaults__', '__le__', '__lt__', '__module__', '__name__', '__ne__', '__new__', '__qualname__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__type_params__']
+
+--- Inspecting restart ---
+Type: <class 'function'>
+It is callable (function or method).
+Attributes/Methods:
+['__annotations__', '__builtins__', '__call__', '__class__', '__closure__', '__code__', '__defaults__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__get__', '__getattribute__', '__getstate__', '__globals__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__kwdefaults__', '__le__', '__lt__', '__module__', '__name__', '__ne__', '__new__', '__qualname__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__type_params__']
+
+--- Inspecting rgb_led ---
+Type: <class 'makeblock.modules.cyberpi.api_cyberpi_api.rgb_led_c'>
+It is not callable.
+Attributes/Methods:
+['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', 'add_blue', 'add_green', 'add_red', 'get_blue', 'get_green', 'get_red', 'off', 'on', 'set_blue', 'set_green', 'set_red']
+
+--- Inspecting science ---
+Type: <class 'makeblock.modules.cyberpi.api_cyberpi_api.science_c'>
+It is not callable.
+Attributes/Methods:
+['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', 'atmos_get', 'atmos_get_altitude', 'compass_get', 'compass_get_angle', 'compass_is_active', 'compass_reset', 'flame_get', 'flame_is_active', 'humiture_get_humidity', 'humiture_get_temp', 'mq2_get', 'mq2_is_active', 'mq2_off', 'mq2_on', 'pir_is_active', 'soil_get', 'soil_get_adc_value', 'soil_get_resistance', 'touch_get_resistance', 'touch_is_active']
+
+--- Inspecting servo_driver ---
+Type: <class 'makeblock.modules.cyberpi.api_cyberpi_api.servo_driver_c'>
+It is not callable.
+Attributes/Methods:
+['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', 'add', 'get', 'get_load', 'release', 'set']
+
+--- Inspecting set_name ---
+Type: <class 'function'>
+It is callable (function or method).
+Attributes/Methods:
+['__annotations__', '__builtins__', '__call__', '__class__', '__closure__', '__code__', '__defaults__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__get__', '__getattribute__', '__getstate__', '__globals__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__kwdefaults__', '__le__', '__lt__', '__module__', '__name__', '__ne__', '__new__', '__qualname__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__type_params__']
+
+--- Inspecting set_recognition_url ---
+Type: <class 'function'>
+It is callable (function or method).
+Attributes/Methods:
+['__annotations__', '__builtins__', '__call__', '__class__', '__closure__', '__code__', '__defaults__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__get__', '__getattribute__', '__getstate__', '__globals__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__kwdefaults__', '__le__', '__lt__', '__module__', '__name__', '__ne__', '__new__', '__qualname__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__type_params__']
+
+--- Inspecting slider ---
+Type: <class 'makeblock.modules.cyberpi.api_cyberpi_api.slider_c'>
+It is not callable.
+Attributes/Methods:
+['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', 'get']
+
+--- Inspecting smart_camera ---
+Type: <class 'makeblock.modules.cyberpi.api_cyberpi_api.smart_camera_c'>
+It is not callable.
+Attributes/Methods:
+['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', 'close_light', 'detect_cross', 'detect_label', 'detect_sign', 'detect_sign_location', 'get_count', 'get_cross_angle', 'get_cross_road', 'get_cross_x', 'get_cross_y', 'get_follow_vector_diff_speed', 'get_label_diff_speed', 'get_label_x', 'get_label_y', 'get_sign_diff_speed', 'get_sign_hight', 'get_sign_wide', 'get_sign_x', 'get_sign_y', 'get_vector_angle', 'get_vector_end_x', 'get_vector_end_y', 'get_vector_start_x', 'get_vector_start_y', 'is_lock_label', 'is_lock_sign', 'learn', 'open_light', 'reset', 'reset_count', 'set_kp', 'set_line', 'set_mode', 'set_vector_angle']
+
+--- Inspecting soil_sensor ---
+Type: <class 'makeblock.modules.cyberpi.api_cyberpi_api.soil_sensor_c'>
+It is not callable.
+Attributes/Methods:
+['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', 'get']
+
+--- Inspecting sound_sensor ---
+Type: <class 'makeblock.modules.cyberpi.api_cyberpi_api.sound_sensor_c'>
+It is not callable.
+Attributes/Methods:
+['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', 'get']
+
+--- Inspecting speaker ---
+Type: <class 'makeblock.modules.cyberpi.api_cyberpi_api.speaker_c'>
+It is not callable.
+Attributes/Methods:
+['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', 'add_vol', 'get_vol', 'is_play', 'mute', 'play_music', 'play_music_until_done', 'play_tone', 'set_vol', 'stop']
+
+--- Inspecting table ---
+Type: <class 'makeblock.modules.cyberpi.api_cyberpi_api.table_c'>
+It is not callable.
+Attributes/Methods:
+['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', 'add']
+
+--- Inspecting temp_sensor ---
+Type: <class 'makeblock.modules.cyberpi.api_cyberpi_api.temp_sensor_c'>
+It is not callable.
+Attributes/Methods:
+['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', 'get']
+
+--- Inspecting timer ---
+Type: <class 'makeblock.modules.cyberpi.api_cyberpi_api.timer_c'>
+It is not callable.
+Attributes/Methods:
+['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', 'get', 'reset']
+
+--- Inspecting ultrasonic ---
+Type: <class 'makeblock.modules.cyberpi.api_cyberpi_api.ultrasonic_c'>
+It is not callable.
+Attributes/Methods:
+['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', 'get']
+
+--- Inspecting ultrasonic2 ---
+Type: <class 'makeblock.modules.cyberpi.api_cyberpi_api.ultrasonic2_c'>
+It is not callable.
+Attributes/Methods:
+['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', 'add_bri', 'get', 'get_bri', 'led_show', 'play', 'set_bri']
+
+--- Inspecting upload_broadcast ---
+Type: <class 'makeblock.modules.cyberpi.api_cyberpi_api.upload_broadcast_c'>
+It is not callable.
+Attributes/Methods:
+['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', 'get', 'set']
+
+--- Inspecting wifi ---
+Type: <class 'makeblock.modules.cyberpi.api_cyberpi_api.wifi_c'>
+It is not callable.
+Attributes/Methods:
+['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', 'connect', 'is_connect']
+
+--- Inspecting wifi_broadcast ---
+Type: <class 'makeblock.modules.cyberpi.api_cyberpi_api.wifi_broadcast_c'>
+It is not callable.
+Attributes/Methods:
+['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', 'get', 'set']
