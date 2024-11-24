@@ -14,6 +14,7 @@ Hack the CyberPi with Python.
 Explain how to connect CyberPi to external devices.
 I need help debugging my CyberPi Python script.
 What are some beginner projects for CyberPi in Python?
+help('modules')
 ```
 
 #
