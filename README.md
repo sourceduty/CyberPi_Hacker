@@ -24,6 +24,15 @@ mlink is a utility tool used to facilitate communication between a host computer
 The connection between mlink and Makeblock is rooted in their commitment to providing accessible, programmable, and interactive tools for education and robotics. Makeblock, a prominent Chinese robotics company, uses platforms like CyberPi, which is often paired with tools like mlink, to allow students and hobbyists to program robots and IoT devices. These tools bridge the gap between hardware and software by providing an easy-to-use interface for coding and controlling devices, fostering innovation in STEM education. Additionally, mlink’s backend, built to work seamlessly with these devices, ensures that communication between the user’s computer and the embedded device is efficient and reliable, enabling a smooth user experience for both beginners and advanced users.
 
 #
+### Sourceduty Hack Checklist
+
+[X] Hack the Cyberpi
+<br>
+[X] Develop something new for CyberyPi
+<br>
+[ ] Hack the Cyberpi OS
+
+#
 ### Python Hacking
 
 ![Hacked](https://github.com/user-attachments/assets/b4033221-abf5-4cf5-8085-4ef4c5ca61e5)
@@ -33,12 +42,6 @@ Hacking the CyberPi without mLink involves leveraging its MicroPython base for d
 To upload scripts, save your Python code as main.py and use tools like ampy to transfer it to the CyberPi. For instance, the command ampy --port /dev/ttyUSB0 put main.py uploads your script, which will run automatically after the CyberPi reboots. You can also automate commands using Python libraries like pyserial for real-time control, enabling advanced scripting and interaction. This approach gives you flexibility and deeper control over the CyberPi while avoiding reliance on proprietary tools. However, ensure you back up existing scripts and avoid overwriting critical system files to prevent unintended issues. If needed, you can restore default settings via hardware reset or mBlock.
 
 ![display methods](https://github.com/user-attachments/assets/ebb39fa5-c7c2-4c25-854d-b64c3a21d091)
-
-[X] Hack the Cyberpi
-<br>
-[ ] Hack the Cyberpi OS
-<br>
-[ ] Develop something new for CyberyPi
 
 #
 ### Classes
