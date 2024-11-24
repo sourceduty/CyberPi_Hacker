@@ -13,6 +13,10 @@ This GPT also excels at personalizing its advice. Through a step-by-step approac
 ### Related Links
 
 [ChatGPT](https://github.com/sourceduty/ChatGPT)
+<br>
+[Raspberry Pi](https://github.com/sourceduty/Raspberry_Pi)
+<br>
+[Flipper Zero Simulator](https://github.com/sourceduty/Flipper_Zero_Simulator)
 
 ***
 Copyright (C) 2024, Sourceduty - All Rights Reserved.
